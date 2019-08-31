@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44f4b1e8-6460-42f3-b0d6-b99499a12c6a" name="Default Changelist" comment="" />
+    <list default="true" id="44f4b1e8-6460-42f3-b0d6-b99499a12c6a" name="Default Changelist" comment="rename motor to appropriate format">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/id/natlus/js1/MotorMainSultan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/id/natlus/js1/MotorMain1841720019Sultan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/id/natlus/js1/MotorSportSultan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/id/natlus/js1/MotorSport18417200191841720019Sultan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/id/natlus/js1/MotorSultan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/id/natlus/js1/Motor1841720019Sultan.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1QBfAbgXjwQi3cKrjchO1zYplVh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/id/natlus/js1" />
@@ -31,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MotorMainSultan">
+  <component name="RunManager" selected="Application.MotorMain1841720019Sultan">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="id.natlus.js1.Main" />
       <module name="jobsheet 1" />
@@ -42,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorMainSultan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="id.natlus.js1.MotorMainSultan" />
+    <configuration name="MotorMain1841720019Sultan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="id.natlus.js1.MotorMain1841720019Sultan" />
       <module name="jobsheet 1" />
       <extension name="coverage">
         <pattern>
@@ -71,11 +81,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SepedaDemo1841720019Sultan" />
-      <item itemvalue="Application.MotorMainSultan" />
+      <item itemvalue="Application.MotorMain1841720019Sultan" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MotorMainSultan" />
+        <item itemvalue="Application.MotorMain1841720019Sultan" />
         <item itemvalue="Application.SepedaDemo1841720019Sultan" />
         <item itemvalue="Application.Main" />
       </list>
@@ -91,11 +101,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567248767427</updated>
-      <workItem from="1567248771914" duration="7343000" />
+      <workItem from="1567248771914" duration="7703000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rename motor to appropriate format" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename motor to appropriate format" />
   </component>
 </project>

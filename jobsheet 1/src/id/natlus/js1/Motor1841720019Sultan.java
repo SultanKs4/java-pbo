@@ -1,6 +1,6 @@
 package id.natlus.js1;
 
-public class MotorSultan {
+public class Motor1841720019Sultan {
     private String mMerk;
     private String mWarna;
     private String mTipe;

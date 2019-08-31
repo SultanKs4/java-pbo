@@ -1,6 +1,6 @@
 package id.natlus.js1;
 
-public class MotorSportSultan extends MotorSultan {
+public class MotorSport18417200191841720019Sultan extends Motor1841720019Sultan {
     private int mGear;
 
     public void setGearSultan(int gear) {

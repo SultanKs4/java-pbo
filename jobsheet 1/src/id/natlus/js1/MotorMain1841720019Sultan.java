@@ -1,9 +1,9 @@
 package id.natlus.js1;
 
-public class MotorMainSultan {
+public class MotorMain1841720019Sultan {
     public static void main(String[] args) {
-        MotorSultan matic = new MotorSultan();
-        MotorSportSultan sport = new MotorSportSultan();
+        Motor1841720019Sultan matic = new Motor1841720019Sultan();
+        MotorSport18417200191841720019Sultan sport = new MotorSport18417200191841720019Sultan();
 
         matic.setmMerkSultan("Honda");
         matic.setmTipeSultan("Vario 150");
