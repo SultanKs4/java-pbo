@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44f4b1e8-6460-42f3-b0d6-b99499a12c6a" name="Default Changelist" comment="rename motor to appropriate format">
+    <list default="true" id="44f4b1e8-6460-42f3-b0d6-b99499a12c6a" name="Default Changelist" comment="add percobaan 3 bonus">
+      <change afterPath="$PROJECT_DIR$/src/id/natlus/js1/SepedaGunungBalap1841720019Sultan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/id/natlus/js1/MotorMainSultan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/id/natlus/js1/MotorMain1841720019Sultan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/id/natlus/js1/MotorSportSultan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/id/natlus/js1/MotorSport18417200191841720019Sultan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/id/natlus/js1/MotorSultan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/id/natlus/js1/Motor1841720019Sultan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jobsheet 1/id/natlus/js1/SepedaDemo1841720019Sultan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jobsheet 1/id/natlus/js1/SepedaDemo1841720019Sultan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/id/natlus/js1/SepedaDemo1841720019Sultan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/id/natlus/js1/SepedaDemo1841720019Sultan.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -41,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MotorMain1841720019Sultan">
+  <component name="RunManager" selected="Application.SepedaDemo1841720019Sultan">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="id.natlus.js1.Main" />
       <module name="jobsheet 1" />
@@ -85,8 +92,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MotorMain1841720019Sultan" />
         <item itemvalue="Application.SepedaDemo1841720019Sultan" />
+        <item itemvalue="Application.MotorMain1841720019Sultan" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -101,8 +108,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567248767427</updated>
-      <workItem from="1567248771914" duration="7703000" />
+      <workItem from="1567248771914" duration="8712000" />
+      <workItem from="1567382232843" duration="935000" />
+      <workItem from="1567393545524" duration="2333000" />
+      <workItem from="1567419067979" duration="647000" />
+      <workItem from="1567422799066" duration="4423000" />
     </task>
+    <task id="LOCAL-00001" summary="rename motor to appropriate format">
+      <created>1567263411925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567263411925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +132,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -121,6 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rename motor to appropriate format" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename motor to appropriate format" />
+    <MESSAGE value="add percobaan 3 (bonus)" />
+    <MESSAGE value="add percobaan 3 bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="add percobaan 3 bonus" />
   </component>
 </project>

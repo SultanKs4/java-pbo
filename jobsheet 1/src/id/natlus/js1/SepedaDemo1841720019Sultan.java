@@ -7,6 +7,7 @@ public class SepedaDemo1841720019Sultan {
         Sepeda1841720019Sultan spd1 = new Sepeda1841720019Sultan();
         Sepeda1841720019Sultan spd2 = new Sepeda1841720019Sultan();
         SepedaGunung1841720019Sultan spd3 = new SepedaGunung1841720019Sultan();
+        SepedaGunungBalap1841720019Sultan spd4 = new SepedaGunungBalap1841720019Sultan();
 
         // Pemanggilan method didalam Object sepeda
         spd1.setMerekSultan("Polygon");
@@ -29,6 +30,16 @@ public class SepedaDemo1841720019Sultan {
         spd3.setTipeSuspensiSultan("Gas Suspension");
         spd3.setmWarna("Pink");
         spd3.cetakSatusSultan();
+        System.out.println();
+
+        spd4.setMerekSultan("Giant");
+        spd4.tambahKecepatanSultan(40);
+        spd4.gantiGearSultan(4);
+        spd4.setmWarna("Metalic Blue");
+        spd4.setTipeSuspensiSultan("Coil Suspension");
+        spd4.setmJenisBanSultan("Soft Compound");
+        spd4.setmPanjangBarSultan(750);
+        spd4.cetakSatusSultan();
     }
 
 }
