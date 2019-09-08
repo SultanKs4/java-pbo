@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44f4b1e8-6460-42f3-b0d6-b99499a12c6a" name="Default Changelist" comment="add percobaan 3 bonus">
-      <change afterPath="$PROJECT_DIR$/src/id/natlus/js1/SepedaGunungBalap1841720019Sultan.java" afterDir="false" />
+    <list default="true" id="44f4b1e8-6460-42f3-b0d6-b99499a12c6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jobsheet 1/id/natlus/js1/SepedaDemo1841720019Sultan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jobsheet 1/id/natlus/js1/SepedaDemo1841720019Sultan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/id/natlus/js1/SepedaDemo1841720019Sultan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/id/natlus/js1/SepedaDemo1841720019Sultan.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +27,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/id/natlus/js1" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -112,7 +110,17 @@
       <workItem from="1567382232843" duration="935000" />
       <workItem from="1567393545524" duration="2333000" />
       <workItem from="1567419067979" duration="647000" />
-      <workItem from="1567422799066" duration="4423000" />
+      <workItem from="1567422799066" duration="4642000" />
+      <workItem from="1567579961748" duration="250000" />
+      <workItem from="1567580599907" duration="590000" />
+      <workItem from="1567581207802" duration="136000" />
+      <workItem from="1567581359649" duration="445000" />
+      <workItem from="1567581820518" duration="84000" />
+      <workItem from="1567581915396" duration="131000" />
+      <workItem from="1567582060949" duration="246000" />
+      <workItem from="1567582329001" duration="166000" />
+      <workItem from="1567582505754" duration="1043000" />
+      <workItem from="1567874665636" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="rename motor to appropriate format">
       <created>1567263411925</created>
@@ -121,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567263411925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add percobaan 3 bonus">
+      <created>1567429119911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567429119911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
