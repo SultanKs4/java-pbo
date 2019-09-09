@@ -18,5 +18,6 @@ public class Mahasiswa1841720019Sultan {
         System.out.println("Nama: " + mNama);
         System.out.println("Alamat: " + mAlamat);
         System.out.println("Kelas: " + mKelas);
+        System.out.println();
     }
 }
