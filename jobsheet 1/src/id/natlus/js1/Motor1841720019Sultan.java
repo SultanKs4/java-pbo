@@ -34,8 +34,8 @@ public class Motor1841720019Sultan {
     public void cetakSatusSultan() {
         System.out.println("Merk: " + mMerk);
         System.out.println("Tipe: " + mTipe);
-        System.out.println("Warna: "+ mWarna);
+        System.out.println("Warna: " + mWarna);
         System.out.println("Kecepatan: " + mKecepatan);
-        System.out.println("Bensin: "+ mBensin);
+        System.out.println("Bensin: " + mBensin);
     }
 }

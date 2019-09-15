@@ -21,6 +21,7 @@ public class MotorMain1841720019Sultan {
         sport.setGearSultan(2);
         sport.cetakSatusSultan();
         System.out.println();
+
         sport.setKecepatanDownSultan(100);
         sport.setGearSultan(1);
         sport.setmBensinSultan(13);

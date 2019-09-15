@@ -30,6 +30,6 @@ public class Sepeda1841720019Sultan {
         System.out.println("Merek: " + mMerek);
         System.out.println("Kecepatan: " + mKecepatan);
         System.out.println("Gear: " + mGear);
-        System.out.println("Warna: "+ mWarna);
+        System.out.println("Warna: " + mWarna);
     }
 }
