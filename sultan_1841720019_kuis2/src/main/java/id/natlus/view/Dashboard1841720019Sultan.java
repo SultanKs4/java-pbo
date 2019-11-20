@@ -5,8 +5,8 @@
  */
 package id.natlus.view;
 
+import id.natlus.controller.Db1841720019Sultan;
 import id.natlus.controller.Loss1841720019Sultan;
-import id.natlus.model.QueryDatabase1841720019Sultan;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -19,8 +19,7 @@ import javax.swing.table.DefaultTableModel;
  * @author kaito
  */
 public class Dashboard1841720019Sultan extends javax.swing.JFrame {
-
-    private QueryDatabase1841720019Sultan connection = new QueryDatabase1841720019Sultan();
+    private Db1841720019Sultan db = new Db1841720019Sultan();
     private DefaultTableModel mModel;
     private Loss1841720019Sultan loss = new Loss1841720019Sultan();
 
@@ -48,8 +47,7 @@ public class Dashboard1841720019Sultan extends javax.swing.JFrame {
         mModel.getDataVector().removeAllElements();
         mModel.fireTableDataChanged();
         try {
-            connection.openConnectionSultan();
-            ResultSet r = connection.getDataSenjataSultan();
+            ResultSet r = db.getSenjataSultan();
             while (r.next()) {
                 List<Object> o = new ArrayList<>();
                 o.add(r.getString("id"));

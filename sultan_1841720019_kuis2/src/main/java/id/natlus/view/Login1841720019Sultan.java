@@ -5,7 +5,7 @@
  */
 package id.natlus.view;
 
-import id.natlus.model.QueryDatabase1841720019Sultan;
+import id.natlus.controller.Db1841720019Sultan;
 
 import javax.swing.*;
 
@@ -13,8 +13,7 @@ import javax.swing.*;
  * @author kaito
  */
 public class Login1841720019Sultan extends javax.swing.JFrame {
-
-    QueryDatabase1841720019Sultan db = new QueryDatabase1841720019Sultan();
+    Db1841720019Sultan db = new Db1841720019Sultan();
 
     /**
      * Creates new form login1841720019Sultan
@@ -135,9 +134,7 @@ public class Login1841720019Sultan extends javax.swing.JFrame {
 
     private void mBtnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mBtnLoginActionPerformed
         // TODO add your handling code here:
-        String pwdText = new String(mPwdField.getPassword());
-        Boolean check = db.checkLoginDataSultan(mTxtField.getText(), pwdText);
-        if (check) {
+        if (db.tryLoginSultan(mTxtField.getText(), new String(mPwdField.getPassword()))) {
             this.setVisible(false);
             Dashboard1841720019Sultan dashboard = new Dashboard1841720019Sultan();
             dashboard.setVisible(true);

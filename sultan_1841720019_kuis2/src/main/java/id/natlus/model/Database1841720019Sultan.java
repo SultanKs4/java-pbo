@@ -1,4 +1,4 @@
-package id.natlus.controller;
+package id.natlus.model;
 
 
 import org.mariadb.jdbc.Driver;
