@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44f4b1e8-6460-42f3-b0d6-b99499a12c6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1QBfAbgXjwQi3cKrjchO1zYplVh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/id/natlus/js1" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/id/natlus/js1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SepedaDemo1841720019Sultan">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="id.natlus.js1.Main" />
+      <module name="jobsheet 1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotorMain1841720019Sultan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="id.natlus.js1.MotorMain1841720019Sultan" />
+      <module name="jobsheet 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="id.natlus.js1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SepedaDemo1841720019Sultan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="id.natlus.js1.SepedaDemo1841720019Sultan" />
+      <module name="jobsheet 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="id.natlus.js1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SepedaDemo1841720019Sultan" />
+      <item itemvalue="Application.MotorMain1841720019Sultan" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SepedaDemo1841720019Sultan" />
+        <item itemvalue="Application.MotorMain1841720019Sultan" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44f4b1e8-6460-42f3-b0d6-b99499a12c6a" name="Default Changelist" comment="" />
+      <created>1567248767427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567248767427</updated>
+      <workItem from="1567248771914" duration="8712000" />
+      <workItem from="1567382232843" duration="935000" />
+      <workItem from="1567393545524" duration="2333000" />
+      <workItem from="1567419067979" duration="647000" />
+      <workItem from="1567422799066" duration="4642000" />
+      <workItem from="1567579961748" duration="250000" />
+      <workItem from="1567580599907" duration="590000" />
+      <workItem from="1567581207802" duration="136000" />
+      <workItem from="1567581359649" duration="445000" />
+      <workItem from="1567581820518" duration="84000" />
+      <workItem from="1567581915396" duration="131000" />
+      <workItem from="1567582060949" duration="246000" />
+      <workItem from="1567582329001" duration="166000" />
+      <workItem from="1567582505754" duration="1043000" />
+      <workItem from="1567874665636" duration="628000" />
+    </task>
+    <task id="LOCAL-00001" summary="rename motor to appropriate format">
+      <created>1567263411925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567263411925</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add percobaan 3 bonus">
+      <created>1567429119911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567429119911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rename motor to appropriate format" />
+    <MESSAGE value="add percobaan 3 (bonus)" />
+    <MESSAGE value="add percobaan 3 bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="add percobaan 3 bonus" />
+  </component>
+</project>
