@@ -17,7 +17,7 @@ import java.io.IOException;
 
 public class imgMetadata {
     private void MetadataExtract() {
-        File jpgFile = new File("img//IMG_20190622_153644.jpg");
+        File jpgFile = new File("img//test.jpg");
         try {
             Metadata metadata = ImageMetadataReader.readMetadata(jpgFile);
             ExifSubIFDDirectory dir = metadata.getFirstDirectoryOfType(ExifSubIFDDirectory.class);
