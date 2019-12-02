@@ -5,7 +5,7 @@ import id.natlus.backend.Kategori1841720019Sultan;
 public class TestBackend1841720019Sultan {
     public static void main(String[] args) {
         Kategori1841720019Sultan kat1 = new Kategori1841720019Sultan("Novel", "Koleksi buku novel");
-        Kategori1841720019Sultan kat2 = new Kategori1841720019Sultan("Referensi", "Buku1841720019Sultan referensi ilmiah");
+        Kategori1841720019Sultan kat2 = new Kategori1841720019Sultan("Referensi", "Buku referensi ilmiah");
         Kategori1841720019Sultan kat3 = new Kategori1841720019Sultan("Komik", "Komik anak-anak");
 
         // test insert

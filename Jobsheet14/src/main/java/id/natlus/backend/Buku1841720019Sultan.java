@@ -65,7 +65,7 @@ public class Buku1841720019Sultan {
     public Buku1841720019Sultan getByIdSultan(int id) {
         Buku1841720019Sultan buku = new Buku1841720019Sultan();
         ResultSet rs = DBHelper1841720019Sultan.selectQuerySultan("SELECT "
-                + "    b.idBuku as idBuku, "
+                + "    b.idbuku as idbuku, "
                 + "    b.judul as judul,"
                 + "    b.penerbit as penerbit, "
                 + "    b.penulis as penulis, "
@@ -74,7 +74,7 @@ public class Buku1841720019Sultan {
                 + "    k.keterangan as keterangan"
                 + "    FROM buku b "
                 + "    LEFT JOIN kategori k ON b.idkategori = k.idkategori "
-                + "    where b.idBuku = '" + id + "'");
+                + "    where b.idbuku = '" + id + "'");
         try {
             while (rs.next()) {
                 buku = new Buku1841720019Sultan();
@@ -95,7 +95,7 @@ public class Buku1841720019Sultan {
     public ArrayList<Buku1841720019Sultan> getAllSultan() {
         ArrayList<Buku1841720019Sultan> listBuku1841720019Sultan = new ArrayList<>();
         ResultSet rs = DBHelper1841720019Sultan.selectQuerySultan("SELECT "
-                + "    b.idBuku as idBuku, "
+                + "    b.idbuku as idbuku, "
                 + "    b.judul as judul, "
                 + "    b.penerbit as penerbit,"
                 + "    b.penulis as penulis, "
@@ -107,7 +107,7 @@ public class Buku1841720019Sultan {
         try {
             while (rs.next()) {
                 Buku1841720019Sultan buku = new Buku1841720019Sultan();
-                buku.setmIdBukuSultan(rs.getInt("idBuku"));
+                buku.setmIdBukuSultan(rs.getInt("idbuku"));
                 buku.getmKategoriSultan().setmIdkategoriSultan(rs.getInt("idkategori"));
                 buku.getmKategoriSultan().setmNamaSultan(rs.getString("nama"));
                 buku.getmKategoriSultan().setmKeteranganSultan(rs.getString("keterangan"));
@@ -161,7 +161,7 @@ public class Buku1841720019Sultan {
 
     public void saveSultan() {
         if (getByIdSultan(mIdBuku).getmIdBukuSultan() == 0) {
-            String SQL = "INSERT INTO buku (idkategori, judul,penulis, penerbit) VALUES("
+            String SQL = "INSERT INTO buku (idkategori, judul, penulis, penerbit) VALUES("
                     + " '" + this.getmKategoriSultan().getmIdkategoriSultan() + "', "
                     + " '" + this.mJudul + "', "
                     + " '" + this.mPenulis + "', "
@@ -174,13 +174,13 @@ public class Buku1841720019Sultan {
                     + " judul = '" + this.mJudul + "', "
                     + " penulis = '" + this.mPenulis + "', "
                     + " penerbit = '" + this.mPenerbit + "' "
-                    + " WHERE idBuku = '" + this.mIdBuku + "'";
+                    + " WHERE idbuku = '" + this.mIdBuku + "'";
             DBHelper1841720019Sultan.executeQuerySultan(SQL);
         }
     }
 
     public void deleteSultan() {
-        String SQL = "DELETE FROM buku where idBuku = '" + this.mIdBuku + "'";
+        String SQL = "DELETE FROM buku where idbuku = '" + this.mIdBuku + "'";
         DBHelper1841720019Sultan.executeQuerySultan(SQL);
     }
 }
