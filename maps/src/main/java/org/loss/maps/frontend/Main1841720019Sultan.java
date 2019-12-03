@@ -3,27 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.loss.maps.view;
+package org.loss.maps.frontend;
 
-import org.openstreetmap.gui.jmapviewer.JMapViewer;
+import org.loss.maps.backend.maps.Maps1841720019Sultan;
 
-import javax.swing.*;
-import javax.swing.filechooser.FileNameExtensionFilter;
-import java.io.File;
+import java.awt.*;
 
 /**
  * @author kaito
  */
-public class main extends javax.swing.JFrame {
+public class Main1841720019Sultan extends javax.swing.JFrame {
 
     /**
-     * Creates new form main
+     * Creates new form Main1841720019Sultan
      */
-    public main() {
+    public Main1841720019Sultan() {
         super("Maps Viewer");
-        final JMapViewer MAP = new JMapViewer();
+        this.setPreferredSize(Toolkit.getDefaultToolkit().getScreenSize());
+        this.setLocationRelativeTo(null);
         initComponents();
-        add(MAP);
+        mPanelMaps.setSize(super.getWidth(), super.getHeight() - mMenuBar.getHeight());
+        Maps1841720019Sultan maps = new Maps1841720019Sultan(mPanelMaps.getWidth(), mPanelMaps.getHeight());
+        mPanelMaps.add(maps.initMaps());
     }
 
     /**
@@ -35,25 +36,36 @@ public class main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        mPanelMaps = new javax.swing.JPanel();
         mMenuBar = new javax.swing.JMenuBar();
         mMenuFile = new javax.swing.JMenu();
+        mMenuItemList = new javax.swing.JMenuItem();
         mMenuItemUpload = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Maps");
+        setExtendedState(6);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 400, Short.MAX_VALUE)
+        javax.swing.GroupLayout mPanelMapsLayout = new javax.swing.GroupLayout(mPanelMaps);
+        mPanelMaps.setLayout(mPanelMapsLayout);
+        mPanelMapsLayout.setHorizontalGroup(
+                mPanelMapsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 670, Short.MAX_VALUE)
         );
-        jPanel1Layout.setVerticalGroup(
-                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        mPanelMapsLayout.setVerticalGroup(
+                mPanelMapsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGap(0, 277, Short.MAX_VALUE)
         );
 
         mMenuFile.setText("File");
+
+        mMenuItemList.setText("List");
+        mMenuItemList.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mMenuItemListActionPerformed(evt);
+            }
+        });
+        mMenuFile.add(mMenuItemList);
 
         mMenuItemUpload.setText("Upload");
         mMenuItemUpload.addActionListener(new java.awt.event.ActionListener() {
@@ -71,35 +83,25 @@ public class main extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(mPanelMaps, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(mPanelMaps, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void mMenuItemUploadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mMenuItemUploadActionPerformed
-        // TODO add your handling code here:
-        JFileChooser file = new JFileChooser();
-        file.setCurrentDirectory(new File(System.getProperty("user.home")));
-        //filter the files
-        FileNameExtensionFilter filter = new FileNameExtensionFilter("*.Images", "jpg", "gif", "png");
-        file.addChoosableFileFilter(filter);
-        file.setFileFilter(filter);
-        int result = file.showSaveDialog(null);
-        //if the user click on save in Jfilechooser
-        if (result == JFileChooser.APPROVE_OPTION) {
-            File selectedFile = file.getSelectedFile();
-            String path = selectedFile.getAbsolutePath();
-//            label.setIcon(ResizeImage(path));
-            //if the user click on save in Jfilechooser
-        } else if (result == JFileChooser.CANCEL_OPTION) {
-            System.out.println("No File Select");
-        }
+        upload upload = new upload();
+        upload.setVisible(true);
     }//GEN-LAST:event_mMenuItemUploadActionPerformed
+
+    private void mMenuItemListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mMenuItemListActionPerformed
+        List1841720019Sultan list = new List1841720019Sultan();
+        list.setVisible(true);
+    }//GEN-LAST:event_mMenuItemListActionPerformed
 
     /**
      * @param args the command line arguments
@@ -118,28 +120,29 @@ public class main extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Main1841720019Sultan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Main1841720019Sultan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Main1841720019Sultan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Main1841720019Sultan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new main().setVisible(true);
+                new Main1841720019Sultan().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JMenuBar mMenuBar;
     private javax.swing.JMenu mMenuFile;
+    private javax.swing.JMenuItem mMenuItemList;
     private javax.swing.JMenuItem mMenuItemUpload;
+    private javax.swing.JPanel mPanelMaps;
     // End of variables declaration//GEN-END:variables
 }
