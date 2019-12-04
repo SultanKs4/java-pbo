@@ -1,4 +1,4 @@
-package org.loss.maps.backend.img;
+package org.loss.maps.model.img;
 
 import com.drew.imaging.ImageMetadataReader;
 import com.drew.imaging.ImageProcessingException;

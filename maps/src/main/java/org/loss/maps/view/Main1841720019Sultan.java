@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.loss.maps.frontend;
+package org.loss.maps.view;
 
-import org.loss.maps.backend.maps.Maps1841720019Sultan;
+import org.loss.maps.controller.ViewMap1841720019Sultan;
 
 import java.awt.*;
 
@@ -13,6 +13,7 @@ import java.awt.*;
  * @author kaito
  */
 public class Main1841720019Sultan extends javax.swing.JFrame {
+    ViewMap1841720019Sultan vm = new ViewMap1841720019Sultan();
 
     /**
      * Creates new form Main1841720019Sultan
@@ -23,8 +24,7 @@ public class Main1841720019Sultan extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         initComponents();
         mPanelMaps.setSize(super.getWidth(), super.getHeight() - mMenuBar.getHeight());
-        Maps1841720019Sultan maps = new Maps1841720019Sultan(mPanelMaps.getWidth(), mPanelMaps.getHeight());
-        mPanelMaps.add(maps.initMaps());
+        mPanelMaps.add(vm.createMapSultan(mPanelMaps.getWidth(), mPanelMaps.getHeight()));
     }
 
     /**
@@ -94,7 +94,7 @@ public class Main1841720019Sultan extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void mMenuItemUploadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mMenuItemUploadActionPerformed
-        upload upload = new upload();
+        Upload1841720246Reza upload = new Upload1841720246Reza();
         upload.setVisible(true);
     }//GEN-LAST:event_mMenuItemUploadActionPerformed
 

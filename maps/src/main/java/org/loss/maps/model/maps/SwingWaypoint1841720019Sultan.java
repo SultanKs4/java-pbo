@@ -1,4 +1,4 @@
-package org.loss.maps.backend.maps;
+package org.loss.maps.model.maps;
 
 import org.jxmapviewer.viewer.DefaultWaypoint;
 import org.jxmapviewer.viewer.GeoPosition;
